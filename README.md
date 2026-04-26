@@ -106,9 +106,10 @@ The system follows a **layered architecture** with clear separation of concerns:
 ## 👥 Team Members
 | Name | Contribution |
 |------|-------------|
-| Satyam | Backend architecture, API, Judge0 integration |
-| [Member 2] | Frontend, UI/UX, Monaco Editor |
-| [Member 3] | Database schema, Prisma, Auth |
+| Satyam | Project setup, repo structure, UML diagrams, design patterns scaffold, TypeScript interfaces & enums, architecture |
+| Jigyasu | Backend auth — JWT, bcrypt, AuthService, middleware, UserFactory, OOP models |
+| Manya | Backend features — SubmissionService, Judge0, Leaderboard, Badge, Observer & Strategy patterns |
+| Aditya | Frontend — all pages, AuthContext, Monaco Editor, API integration |
 
 ## 📄 License
 MIT
