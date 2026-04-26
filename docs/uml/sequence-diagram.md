@@ -12,7 +12,7 @@ sequenceDiagram
     participant AuthMiddleware as Auth Middleware
     participant SubmissionAPI as Submission API
     participant Judge0 as Judge0 Service
-    participant DB as MySQL (Prisma)
+    participant DB as PostgreSQL (Prisma)
     participant Leaderboard as Leaderboard Service
 
     Student->>Frontend: Write code & click Submit
